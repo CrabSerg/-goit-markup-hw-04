@@ -225,7 +225,6 @@ color: var(--black-color);
 
 .mailtel {
 margin-right: 50px;
-margin-left: 10px;
 
 font-weight: 500;
 font-size: 14px;
@@ -255,6 +254,8 @@ margin-right: 8px;
 .hero-button:hover,
 .hero-button:focus {
 background-color: var(--accent-color-bg);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
 
 .btn-port {
