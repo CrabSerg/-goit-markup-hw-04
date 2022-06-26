@@ -6,11 +6,12 @@
 --black-color:#212121;
 /* Вторичный цвет (серый)*/
  --grey-color: #757575;
+--grey-color-icon: #AFB1B8;
 /* Белый текст и фон */
 --white-bg-color: #ffffff;
 /* Акцент цвета */
 --accent-color: #2196F3;
-/* Раззное */
+/* Разное */
 --accent-color-bg: #188CE8;
 --bg-color-photo: #F5F4FA;
 --color-sidebar: #2F303A;
@@ -407,6 +408,7 @@ color: var(--black-color);
 background-color: var(--white-bg-color);
 }
 .team-job {
+margin-bottom: 16px;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
@@ -419,6 +421,15 @@ color: var(--grey-color)
 padding-top: 60px;
 padding-bottom: 60px;
 }
+
+.conteiner-footer {
+display: flex;
+}
+
+.conteiner-social {
+margin-left: 70px;
+}
+
 .googlemaps {
 font-weight: 400;
 font-size: 14px;
@@ -432,5 +443,124 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color:rgba(255, 255, 255, 0.6);;
+color:rgba(255, 255, 255, 0.6);
+}
+
+.footer-strong {
+margin-bottom: 20px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.social-media  {
+display: flex;
+justify-content: center;
+}
+
+.social-media-item:not(:last-child) {
+margin-right: 10px;
+}
+
+.social-media-link {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 44px;
+height: 44px;
+color: var(--grey-color-icon);
+background-color: var(--white-bg-color);
+border-radius: 50%;
+}
+
+.social-media-link:hover,
+.social-media-link:focus {
+color: var(--white-bg-color);
+background-color: var(--accent-color-bg);
+}
+.social-media-icon {
+fill: currentColor;
+}
+                                          /* ФУТЕР */
+.social-footer-item:not(:last-child) {
+margin-right: 10px;
+}
+
+.social-media-footer  {
+display: flex;
+justify-content: center;
+}
+
+.social-footer-link {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 44px;
+height: 44px;
+color: var(--white-bg-color);
+background-color: rgba(255, 255, 255, 0.1);
+border-radius: 50%;
+}
+.social-footer-link:hover,
+.social-footer-link:focus {
+color: var(--white-bg-color);
+background-color: var(--accent-color-bg);
+}
+.social-footer-icon {
+fill: currentColor;
+}
+                                          /* ФУТЕРР */
+.conteiner-clients  {
+padding-top: 94px;
+}
+.clients-list {
+display: flex;
+justify-content: center;
+padding-bottom: 94px;
+}
+
+.clients-item:not(:last-child) {
+margin-right: 30px;
+}
+
+.card-clients-list {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 170px;
+height: 92px;
+color: var(--grey-color-icon);
+border: 1px solid var(--grey-color-icon);
+border-radius: 4px;
+}
+
+.card-clients-list:hover,
+.card-clients-list:focus  {
+color: var(--accent-color);
+border: 1px solid var(--accent-color);
+}
+
+.social-clients-icon {
+fill: currentColor;
+} 
+
+.benefits-list-icon  {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.benefits-svg  {
+margin-bottom: 30px;
+width: 270px;
+height: 120px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #F5F4FA;
+border-radius: 4px;
 }
