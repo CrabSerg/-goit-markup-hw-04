@@ -55,7 +55,7 @@ padding-top: 200px;
 margin: 0px;
 text-align: center;
 background-color: var(--color-sidebar);
-background-image: url(..//images/hero/Hero-team.png);
+background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(..//images/hero/Hero-team.png);
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -225,6 +225,7 @@ color: var(--black-color);
 
 .mailtel {
 margin-right: 50px;
+margin-left: 10px;
 
 font-weight: 500;
 font-size: 14px;
@@ -563,4 +564,9 @@ align-items: center;
 justify-content: center;
 background: #F5F4FA;
 border-radius: 4px;
+}
+
+.mail {
+display: flex;
+align-items: center;
 }
