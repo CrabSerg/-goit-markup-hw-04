@@ -111,7 +111,7 @@ margin-bottom: 20px;
 }
 
 .nav-list {
-margin-right: 331px;
+margin-right: 305px;
 display: flex;
 }
 
@@ -230,7 +230,7 @@ color: var(--black-color);
 }
 
 .mailtel {
-margin-right: 50px;
+display: flex;
 
 font-weight: 500;
 font-size: 14px;
@@ -576,4 +576,23 @@ border-radius: 4px;
 .mail {
 display: flex;
 align-items: center;
+color: var(--grey-color);
+}
+.tel {
+display: flex;
+align-items: center;
+color: var(--grey-color);
+}
+.tel:hover,
+.tel:focus {
+color: var(--accent-color);
+}
+
+.icon {
+margin-right: 10px;
+fill: currentColor;
+}
+
+.mailtel-mail {
+margin-right: 30px;
 }
