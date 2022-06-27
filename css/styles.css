@@ -231,6 +231,7 @@ color: var(--black-color);
 
 .mailtel {
 display: flex;
+align-items: center;
 
 font-weight: 500;
 font-size: 14px;
@@ -494,7 +495,7 @@ background-color: var(--accent-color-bg);
 .social-media-icon {
 fill: currentColor;
 }
-                                          /* ФУТЕР */
+
 .social-footer-item:not(:last-child) {
 margin-right: 10px;
 }
@@ -522,7 +523,7 @@ background-color: var(--accent-color-bg);
 .social-footer-icon {
 fill: currentColor;
 }
-                                          /* ФУТЕРР */
+
 .conteiner-clients  {
 padding-top: 94px;
 }
